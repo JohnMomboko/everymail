@@ -1,0 +1,33 @@
+{
+  "name": "everymail",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnMomboko/paperlesspro-lib.git"
+  },
+  "author": {
+    "name": "John Momboko"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "vitest",
+    "test-report": "vitest --reporter verbose",
+    "test-ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "docs": "typedoc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/rollup": "^0.51.4",
+    "@vitest/ui": "^2.1.8",
+    "typedoc": "^0.27.3",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "@vitest/coverage-v8": "^2.1.8"
+  }
+}
