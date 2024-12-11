@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JohnMomboko/paperlesspro-lib.git"
+    "url": "https://github.com/JohnMomboko/everymail.git"
   },
   "author": {
     "name": "John Momboko"
@@ -19,6 +19,13 @@
     "test:coverage": "vitest --coverage",
     "docs": "typedoc"
   },
+  "keywords": [
+    "email",
+    "email-check",
+    "email-library",
+    "email-validator",
+    "email-validation"
+  ],
   "devDependencies": {
     "@types/node": "^22.10.1",
     "@types/rollup": "^0.51.4",
